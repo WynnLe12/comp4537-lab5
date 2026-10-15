@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle"></title>
+
+    <link rel="stylesheet" href="/server1/css/style.css">
+
+    <script src="/server1/lang/user.js" defer></script>
+    <script src="/server1/js/script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1 id="mainTitle"></h1>
+
+        <section>
+            <h2 id="insertTitle"></h2>
+            <p id="insertDescription"></p>
+
+            <button id="insertBtn" type="button"></button>
+        </section>
+
+        <section>
+            <h2 id="readTitle"></h2>
+
+            <label id="queryLabel" for="sqlQuery"></label>
+
+            <textarea id="sqlQuery"></textarea>
+
+            <button id="submitBtn" type="button"></button>
+        </section>
+
+        <section aria-live="polite">
+            <h2 id="responseTitle"></h2>
+            <pre id="response"></pre>
+        </section>
+    </main>
+</body>
+</html>
