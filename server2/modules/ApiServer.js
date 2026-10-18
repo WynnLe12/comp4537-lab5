@@ -1,3 +1,4 @@
+// Claude AI was used to help set up the API server.
 const http = require("http");
 const MESSAGES = require("../lang/en");
 
